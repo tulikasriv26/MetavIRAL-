@@ -38,12 +38,10 @@ This workflow performs
 | `params.megahit_min_len` | Minimum contig length                       |
 
 # Required Tools (Containers)
-1.FastQC
-2.FASTp
-3. Ribodetector
+1.FastQC,
 2.Fastp
-Ribodetector
-Kraken2
+3. Ribodetector
+4.Kraken2
 BBMap
 MEGAHIT
 geNomad
