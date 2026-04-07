@@ -38,14 +38,16 @@ This workflow performs
 | `params.megahit_min_len` | Minimum contig length                       |
 
 # Required Tools (Containers)
-1.FastQC,
-2.Fastp
-3. Ribodetector
-4.Kraken2
+FastQC
+Fastp
+Ribodetector
+Kraken2
 BBMap
 MEGAHIT
 geNomad
 CheckV
+
+All tools are executed via Singularity container
 
 
 
