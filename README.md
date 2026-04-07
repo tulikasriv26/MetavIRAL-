@@ -12,23 +12,6 @@ This workflow performs
 7.Viral identification → geNomad
 8.Viral genome quality → CheckV
 
-Raw Reads
-   ↓
-FastQC
-   ↓
-fastp
-   ↓
-RiboDetector (non-rRNA reads)
-   ↓
- ┌───────────────┬────────────────────┐
- │               │                    │
- ↓               ↓                    ↓
-Kraken2        BBMap              MEGAHIT
-                                    ↓
-                                geNomad
-                                    ↓
-                                 CheckV
-
 # Input Requirements:
 1. Paired-end FASTQ files:
 *_R1_001.fastq.gz
@@ -38,9 +21,9 @@ Kraken2        BBMap              MEGAHIT
 *.fasta (e.g., 8 viral genomes)
 
 5. Databases:
-Kraken2 database (https://genome-idx.s3.amazonaws.com/kraken/k2_viral_20260226.tar.gz)
-geNomad database (https://zenodo.org/records/14886553)
-CheckV database (https://portal.nersc.gov/CheckV/)
+(a) Kraken2 database (https://genome-idx.s3.amazonaws.com/kraken/k2_viral_20260226.tar.gz)
+(b) geNomad database (https://zenodo.org/records/14886553)
+(c) CheckV database (https://portal.nersc.gov/CheckV/)
 
 # Parameters
 | Parameter                | Description                                 |
