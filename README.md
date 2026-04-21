@@ -43,8 +43,12 @@ This workflow performs
 - fastp: biocontainers/fastp:0.23.2  
 - kraken2: staphb/kraken2:2.1.3  
 - megahit: biocontainers/megahit:1.2.9  
-- bbmap: biocontainers/bbmap 
--All tools are executed via Singularity container
+- bbmap: biocontainers/bbmap  
+- checkv: biocontainers/checkv  
+- ribodetector: biocontainers/ribodetector  
+- genomad: biocontainers/genomad  
+
+All tools are executed via Singularity/Apptainer containers on HPC system.Containers are automatically pulled from the BioContainers registry (https://biocontainers.pro) using Nextflow and cached locally at runtime.
 
 
 
