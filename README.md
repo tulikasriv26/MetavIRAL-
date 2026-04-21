@@ -44,7 +44,7 @@ This workflow performs
 - kraken2: staphb/kraken2:2.1.3  
 - megahit: biocontainers/megahit:1.2.9  
 - bbmap: biocontainers/bbmap 
-All tools are executed via Singularity container
+-All tools are executed via Singularity container
 
 
 
