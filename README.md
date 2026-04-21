@@ -37,16 +37,13 @@ This workflow performs
 | `params.checkv_db`       | CheckV database                             |
 | `params.megahit_min_len` | Minimum contig length                       |
 
-# Required Tools (Containers)
-FastQC
-Fastp
-Ribodetector
-Kraken2
-BBMap
-MEGAHIT
-geNomad
-CheckV
+### Required containers:
 
+- fastqc: biocontainers/fastqc:v0.11.9_cv8  
+- fastp: biocontainers/fastp:0.23.2  
+- kraken2: staphb/kraken2:2.1.3  
+- megahit: biocontainers/megahit:1.2.9  
+- bbmap: biocontainers/bbmap 
 All tools are executed via Singularity container
 
 
